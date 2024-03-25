@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './Header.css'; // Assuming you have a CSS file for styling
 
 const Header = () => {
@@ -9,7 +9,9 @@ const Header = () => {
                 <img src="/images/logo192.png" alt="Logo" className="logo" /> {"/images/logo192.png"}
             </div>
             <nav className="nav">
-                <Link to="/products" className="nav-link">Products</Link>
+                <Link to="/">Home</Link>
+                <Link to="/products">Products</Link>
+                <Link to="/login">Login</Link>
             </nav>
             <div className="company-name">
                 {"Mohammed's Company"}

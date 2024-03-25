@@ -1,3 +1,7 @@
+// Group Members:
+// Wilson Zheng (UCID: 30157158)
+// Mohammed Yassin (UCID: )
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
