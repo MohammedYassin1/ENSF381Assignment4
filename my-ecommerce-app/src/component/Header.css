@@ -1,0 +1,30 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+.logo {
+    height: 50px;
+}
+
+.nav {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.company-name {
+    flex: 1;
+    text-align: right;
+}
