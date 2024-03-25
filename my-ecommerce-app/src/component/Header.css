@@ -1,8 +1,12 @@
 .header {
     display: flex;
+    flex-direction: column;
+}
+
+.top-header {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
 }
 
 .logo-container {
@@ -14,9 +18,9 @@
 }
 
 .nav {
-    flex: 2;
+    width: 100%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 .nav-link {

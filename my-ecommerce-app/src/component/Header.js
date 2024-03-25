@@ -1,21 +1,23 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import './Header.css'; // Assuming you have a CSS file for styling
+import './Header.css'; 
 
 const Header = () => {
     return (
         <header className="header">
-            <div className="logo-container">
-                <img src="/images/logo192.png" alt="Logo" className="logo" /> {"/images/logo192.png"}
+            <div className="top-header">
+                <div className="logo-container">
+                    <img src={"/logo192.png"} alt="Logo" className="logo" /> 
+                </div>
+                <div className="company-name">
+                    {"Company"}
+                </div>
             </div>
             <nav className="nav">
                 <Link to="/">Home</Link>
                 <Link to="/products">Products</Link>
                 <Link to="/login">Login</Link>
             </nav>
-            <div className="company-name">
-                {"Mohammed's Company"}
-            </div>
         </header>
     );
 };

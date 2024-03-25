@@ -3,7 +3,8 @@ import React from 'react';
 const Footer = () => {
     return(
         <footer>
-            <p>© 2024 Mohammed Yassin</p>
+            <br></br>
+            <p>© 2024 Mohammed Yassin, Wilson Zheng</p>
         </footer>
     );
 };
